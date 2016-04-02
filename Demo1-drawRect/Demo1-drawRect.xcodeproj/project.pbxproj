@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF40A93D1C743F61004DAA70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40A93C1C743F61004DAA70 /* main.m */; };
+		CF40A9401C743F61004DAA70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40A93F1C743F61004DAA70 /* AppDelegate.m */; };
+		CF40A9431C743F61004DAA70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40A9421C743F61004DAA70 /* ViewController.m */; };
+		CF40A9461C743F61004DAA70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF40A9441C743F61004DAA70 /* Main.storyboard */; };
+		CF40A9481C743F61004DAA70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF40A9471C743F61004DAA70 /* Assets.xcassets */; };
+		CF40A94B1C743F62004DAA70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF40A9491C743F62004DAA70 /* LaunchScreen.storyboard */; };
+		CF40A9561C743F62004DAA70 /* Demo1_drawRectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40A9551C743F62004DAA70 /* Demo1_drawRectTests.m */; };
+		CF40A9611C743F62004DAA70 /* Demo1_drawRectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40A9601C743F62004DAA70 /* Demo1_drawRectUITests.m */; };
+		CF40A9701C743F7C004DAA70 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = CF40A96F1C743F7C004DAA70 /* MyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF40A9521C743F62004DAA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF40A9301C743F61004DAA70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF40A9371C743F61004DAA70;
+			remoteInfo = "Demo1-drawRect";
+		};
+		CF40A95D1C743F62004DAA70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF40A9301C743F61004DAA70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF40A9371C743F61004DAA70;
+			remoteInfo = "Demo1-drawRect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF40A9381C743F61004DAA70 /* Demo1-drawRect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo1-drawRect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF40A93C1C743F61004DAA70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF40A93E1C743F61004DAA70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF40A93F1C743F61004DAA70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF40A9411C743F61004DAA70 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF40A9421C743F61004DAA70 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF40A9451C743F61004DAA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF40A9471C743F61004DAA70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF40A94A1C743F62004DAA70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF40A94C1C743F62004DAA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF40A9511C743F62004DAA70 /* Demo1-drawRectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo1-drawRectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF40A9551C743F62004DAA70 /* Demo1_drawRectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1_drawRectTests.m; sourceTree = "<group>"; };
+		CF40A9571C743F62004DAA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF40A95C1C743F62004DAA70 /* Demo1-drawRectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo1-drawRectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF40A9601C743F62004DAA70 /* Demo1_drawRectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1_drawRectUITests.m; sourceTree = "<group>"; };
+		CF40A9621C743F62004DAA70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF40A96E1C743F7C004DAA70 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		CF40A96F1C743F7C004DAA70 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF40A9351C743F61004DAA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF40A94E1C743F62004DAA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF40A9591C743F62004DAA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF40A92F1C743F61004DAA70 = {
+			isa = PBXGroup;
+			children = (
+				CF40A93A1C743F61004DAA70 /* Demo1-drawRect */,
+				CF40A9541C743F62004DAA70 /* Demo1-drawRectTests */,
+				CF40A95F1C743F62004DAA70 /* Demo1-drawRectUITests */,
+				CF40A9391C743F61004DAA70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF40A9391C743F61004DAA70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF40A9381C743F61004DAA70 /* Demo1-drawRect.app */,
+				CF40A9511C743F62004DAA70 /* Demo1-drawRectTests.xctest */,
+				CF40A95C1C743F62004DAA70 /* Demo1-drawRectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF40A93A1C743F61004DAA70 /* Demo1-drawRect */ = {
+			isa = PBXGroup;
+			children = (
+				CF40A93E1C743F61004DAA70 /* AppDelegate.h */,
+				CF40A93F1C743F61004DAA70 /* AppDelegate.m */,
+				CF40A9411C743F61004DAA70 /* ViewController.h */,
+				CF40A9421C743F61004DAA70 /* ViewController.m */,
+				CF40A9441C743F61004DAA70 /* Main.storyboard */,
+				CF40A96E1C743F7C004DAA70 /* MyView.h */,
+				CF40A96F1C743F7C004DAA70 /* MyView.m */,
+				CF40A9471C743F61004DAA70 /* Assets.xcassets */,
+				CF40A9491C743F62004DAA70 /* LaunchScreen.storyboard */,
+				CF40A94C1C743F62004DAA70 /* Info.plist */,
+				CF40A93B1C743F61004DAA70 /* Supporting Files */,
+			);
+			path = "Demo1-drawRect";
+			sourceTree = "<group>";
+		};
+		CF40A93B1C743F61004DAA70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF40A93C1C743F61004DAA70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF40A9541C743F62004DAA70 /* Demo1-drawRectTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF40A9551C743F62004DAA70 /* Demo1_drawRectTests.m */,
+				CF40A9571C743F62004DAA70 /* Info.plist */,
+			);
+			path = "Demo1-drawRectTests";
+			sourceTree = "<group>";
+		};
+		CF40A95F1C743F62004DAA70 /* Demo1-drawRectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF40A9601C743F62004DAA70 /* Demo1_drawRectUITests.m */,
+				CF40A9621C743F62004DAA70 /* Info.plist */,
+			);
+			path = "Demo1-drawRectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF40A9371C743F61004DAA70 /* Demo1-drawRect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF40A9651C743F62004DAA70 /* Build configuration list for PBXNativeTarget "Demo1-drawRect" */;
+			buildPhases = (
+				CF40A9341C743F61004DAA70 /* Sources */,
+				CF40A9351C743F61004DAA70 /* Frameworks */,
+				CF40A9361C743F61004DAA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Demo1-drawRect";
+			productName = "Demo1-drawRect";
+			productReference = CF40A9381C743F61004DAA70 /* Demo1-drawRect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF40A9501C743F62004DAA70 /* Demo1-drawRectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF40A9681C743F62004DAA70 /* Build configuration list for PBXNativeTarget "Demo1-drawRectTests" */;
+			buildPhases = (
+				CF40A94D1C743F62004DAA70 /* Sources */,
+				CF40A94E1C743F62004DAA70 /* Frameworks */,
+				CF40A94F1C743F62004DAA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF40A9531C743F62004DAA70 /* PBXTargetDependency */,
+			);
+			name = "Demo1-drawRectTests";
+			productName = "Demo1-drawRectTests";
+			productReference = CF40A9511C743F62004DAA70 /* Demo1-drawRectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF40A95B1C743F62004DAA70 /* Demo1-drawRectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF40A96B1C743F62004DAA70 /* Build configuration list for PBXNativeTarget "Demo1-drawRectUITests" */;
+			buildPhases = (
+				CF40A9581C743F62004DAA70 /* Sources */,
+				CF40A9591C743F62004DAA70 /* Frameworks */,
+				CF40A95A1C743F62004DAA70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF40A95E1C743F62004DAA70 /* PBXTargetDependency */,
+			);
+			name = "Demo1-drawRectUITests";
+			productName = "Demo1-drawRectUITests";
+			productReference = CF40A95C1C743F62004DAA70 /* Demo1-drawRectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF40A9301C743F61004DAA70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF40A9371C743F61004DAA70 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF40A9501C743F62004DAA70 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF40A9371C743F61004DAA70;
+					};
+					CF40A95B1C743F62004DAA70 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF40A9371C743F61004DAA70;
+					};
+				};
+			};
+			buildConfigurationList = CF40A9331C743F61004DAA70 /* Build configuration list for PBXProject "Demo1-drawRect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF40A92F1C743F61004DAA70;
+			productRefGroup = CF40A9391C743F61004DAA70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF40A9371C743F61004DAA70 /* Demo1-drawRect */,
+				CF40A9501C743F62004DAA70 /* Demo1-drawRectTests */,
+				CF40A95B1C743F62004DAA70 /* Demo1-drawRectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF40A9361C743F61004DAA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF40A94B1C743F62004DAA70 /* LaunchScreen.storyboard in Resources */,
+				CF40A9481C743F61004DAA70 /* Assets.xcassets in Resources */,
+				CF40A9461C743F61004DAA70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF40A94F1C743F62004DAA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF40A95A1C743F62004DAA70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF40A9341C743F61004DAA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF40A9701C743F7C004DAA70 /* MyView.m in Sources */,
+				CF40A9431C743F61004DAA70 /* ViewController.m in Sources */,
+				CF40A9401C743F61004DAA70 /* AppDelegate.m in Sources */,
+				CF40A93D1C743F61004DAA70 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF40A94D1C743F62004DAA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF40A9561C743F62004DAA70 /* Demo1_drawRectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF40A9581C743F62004DAA70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF40A9611C743F62004DAA70 /* Demo1_drawRectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF40A9531C743F62004DAA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF40A9371C743F61004DAA70 /* Demo1-drawRect */;
+			targetProxy = CF40A9521C743F62004DAA70 /* PBXContainerItemProxy */;
+		};
+		CF40A95E1C743F62004DAA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF40A9371C743F61004DAA70 /* Demo1-drawRect */;
+			targetProxy = CF40A95D1C743F62004DAA70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF40A9441C743F61004DAA70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF40A9451C743F61004DAA70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF40A9491C743F62004DAA70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF40A94A1C743F62004DAA70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF40A9631C743F62004DAA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF40A9641C743F62004DAA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF40A9661C743F62004DAA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo1-drawRect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-drawRect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF40A9671C743F62004DAA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Demo1-drawRect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-drawRect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF40A9691C743F62004DAA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Demo1-drawRectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-drawRectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo1-drawRect.app/Demo1-drawRect";
+			};
+			name = Debug;
+		};
+		CF40A96A1C743F62004DAA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Demo1-drawRectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-drawRectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo1-drawRect.app/Demo1-drawRect";
+			};
+			name = Release;
+		};
+		CF40A96C1C743F62004DAA70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Demo1-drawRectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-drawRectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Demo1-drawRect";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF40A96D1C743F62004DAA70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Demo1-drawRectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo1-drawRectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Demo1-drawRect";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF40A9331C743F61004DAA70 /* Build configuration list for PBXProject "Demo1-drawRect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF40A9631C743F62004DAA70 /* Debug */,
+				CF40A9641C743F62004DAA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF40A9651C743F62004DAA70 /* Build configuration list for PBXNativeTarget "Demo1-drawRect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF40A9661C743F62004DAA70 /* Debug */,
+				CF40A9671C743F62004DAA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF40A9681C743F62004DAA70 /* Build configuration list for PBXNativeTarget "Demo1-drawRectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF40A9691C743F62004DAA70 /* Debug */,
+				CF40A96A1C743F62004DAA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF40A96B1C743F62004DAA70 /* Build configuration list for PBXNativeTarget "Demo1-drawRectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF40A96C1C743F62004DAA70 /* Debug */,
+				CF40A96D1C743F62004DAA70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF40A9301C743F61004DAA70 /* Project object */;
+}
